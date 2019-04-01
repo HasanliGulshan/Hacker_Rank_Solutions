@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        Deque<Integer> element = new ArrayDeque<>(n);
+        int sign = 0, elm = 0;
+
+        for (int i=0; i<n; i++) {
+            sign = scanner.nextInt();
+
+            if (sign == 1) {
+                int previous = element.isEmpty() ? Integer.MIN_VALUE : element.peek();
+                elm = scanner.nextInt();
+
+                previous = Math.max(previous, elm);
+                element.push(previous);
+
+            } else if (sign == 2) {
+                element.pop();
+            } else {
+                System.out.println(element.peek());
+            }
+        }
+    }
+}
+
