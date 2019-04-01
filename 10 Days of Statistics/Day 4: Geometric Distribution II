@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+        double p = sc.nextDouble()/sc.nextDouble();
+        int tests = sc.nextInt();
+        sc.close();
+
+        double ans = (1-(Math.pow(1-p,tests)));
+        System.out.printf("%.3f",ans);
+    }
+}
+
