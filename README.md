@@ -72,3 +72,56 @@ Solutions are coded using Java 8
 |RegEx, Patterns, and Intro to Databases|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/30%20Days%20of%20Code/Day%2028:%20RegEx%2C%20Patterns%2C%20and%20Intro%20to%20Databases)|
 |Bitwise AND|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/30%20Days%20of%20Code/Day%2029:%20Bitwise%20AND)|
 
+
+# **Algorithms**
+
+| Challenge | Solution     
+| ------------- |:-------------:|
+|Lonely Integer|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Algorithms/Bit%20Manipulation/Lonely%20Integer)|
+|Sansa and XOR|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Algorithms/Bit%20Manipulation/Sansa%20and%20XOR)|
+|Sum vs XOR|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Algorithms/Bit%20Manipulation/Sum%20vs%20XOR)|
+|Correctness and the Loop Invariant|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Algorithms/Sorting/Correctness%20and%20the%20Loop%20Invariant)|
+|Counting Sort 1|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Algorithms/Sorting/Counting%20Sort%201)|
+|Insertion Sort - Part 1|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Algorithms/Sorting/Insertion%20Sort%20-%20Part%201)|
+|Insertion Sort - Part 2|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Algorithms/Sorting/Insertion%20Sort%20-%20Part%202)|
+|Intro to Tutorial Challenges|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Algorithms/Sorting/Intro%20to%20Tutorial%20Challenges)|
+
+# **Cracking the Coding Interview**
+
+| Challenge | Solution     
+| ------------- |:-------------:|
+|Arrays: Left Rotation|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Cracking%20the%20Coding%20Interview/Arrays:%20Left%20Rotation)|
+|Hash Tables: Ransom Note|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Cracking%20the%20Coding%20Interview/Hash%20Tables:%20Ransom%20Note)|
+|Queues: A Tale of Two Stacks|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Cracking%20the%20Coding%20Interview/Queues:%20A%20Tale%20of%20Two%20Stacks)|
+|Recursion: Fibonacci Numbers|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Cracking%20the%20Coding%20Interview/Recursion:%20Fibonacci%20Numbers)|
+|Sorting: Bubble Sort|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Cracking%20the%20Coding%20Interview/Sorting:%20Bubble%20Sort)|
+|Sorting: Comparator|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Cracking%20the%20Coding%20Interview/Sorting:%20Comparator)|
+|Stacks: Balanced Brackets|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Cracking%20the%20Coding%20Interview/Stacks:%20Balanced%20Brackets)|
+|Strings: Making Anagrams|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Cracking%20the%20Coding%20Interview/Strings:%20Making%20Anagrams)|
+|Time Complexity: Primality|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Cracking%20the%20Coding%20Interview/Time%20Complexity:%20Primality)|
+
+
+# **Data Structures**
+
+| Challenge | Solution     
+| ------------- |:-------------:|
+|2D Array - DS|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Arrays/2D%20Array%20-%20DS)|
+|Arrays - DS|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Arrays/Arrays%20-%20DS)|
+|Dynamic Array|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Arrays/Dynamic%20Array)|
+|Left Rotation|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Arrays/Left%20Rotation)|
+|Sparse Arrays|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Arrays/Sparse%20Arrays)|
+|Compare two linked lists|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Compare%20two%20linked%20lists)|
+|Delete a Node|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Delete%20a%20Node)|
+|Delete duplicate-value nodes from a sorted linked list|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Delete%20duplicate-value%20nodes%20from%20a%20sorted%20linked%20list)|
+|Get Node Value|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Get%20Node%20Value)|
+|Insert a Node at the Tail of a Linked List|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Insert%20a%20Node%20at%20the%20Tail%20of%20a%20Linked%20List)|
+|Insert a node at a specific position in a linked list|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Insert%20a%20node%20at%20a%20specific%20position%20in%20a%20linked%20list)|
+|Insert a node at the head of a linked list|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Insert%20a%20node%20at%20the%20head%20of%20a%20linked%20list)|
+|Merge two sorted linked lists|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Merge%20two%20sorted%20linked%20lists)|
+|Print in Reverse|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Print%20in%20Reverse)|
+|Print the Elements of a Linked List|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Print%20the%20Elements%20of%20a%20Linked%20List)|
+|Reverse a linked list|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Linked%20List/Reverse%20a%20linked%20list)|
+|Queue using Two Stacks|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Queues/Queue%20using%20Two%20Stacks)|
+|Balanced Brackets|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Stacks/Balanced%20Brackets)|
+|Maximum Element|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Stacks/Maximum%20Element)|
+|Simple Text Editor|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Data%20Structures/Stacks/Simple%20Text%20Editor)|
