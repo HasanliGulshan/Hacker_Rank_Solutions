@@ -3,12 +3,12 @@
 
 * <a href="#10-days-of-statistics">10 Days of Statistics</a>
 * <a href="#30-days-of-code">30 Days of Code</a>
-* <a href="algorithms">Algorithms</a>
-* <a href="cracking-the-coding-interview">Cracking the Coding Interview</a>
-* <a href="data-structures">Data Structures</a>
-* <a href="implementation">Implementation</a>
-* <a href="java">Java</a>
-* <a href="SQL">SQL</a>
+* <a href="#algorithms">Algorithms</a>
+* <a href="#cracking-the-coding-interview">Cracking the Coding Interview</a>
+* <a href="#data-structures">Data Structures</a>
+* <a href="#implementation">Implementation</a>
+* <a href="#java">Java</a>
+* <a href="#sql">SQL</a>
 
 Solutions are coded using Java 8
 
