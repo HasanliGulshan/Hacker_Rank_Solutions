@@ -178,7 +178,7 @@ Solutions are coded using Java 8
 |Pangrams|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Strings/Pangrams)|
 |Separate the Numbers|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Strings/Separate%20the%20Numbers)|
 |Sherlock and Anagrams|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Strings/Sherlock%20and%20Anagrams)|
-|Sherlock and the Valid String|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Strings/Sherlock%20and%20the%20Valid%20String()|
+|Sherlock and the Valid String|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Strings/Sherlock%20and%20the%20Valid%20String)|
 |String Construction|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Strings/String%20Construction)|
 |Strong Password|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Strings/Strong%20Password)|
 |Super Reduced String|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Strings/Super%20Reduced%20String)|
