@@ -73,3 +73,8 @@
 |Java Factory Pattern|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Advanced/Java%20Factory%20Pattern)|
 |Java Reflection - Attributes|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Advanced/Java%20Reflection%20-%20Attributes)|
 |Java Varargs - Simple Addition|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Advanced/Java%20Varargs%20-%20Simple%20Addition)|
+|Java MD5|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Advanced/Java%20MD5)|
+|Java SHA-256|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Advanced/Java%20SHA-256)|
+|Java Singleton Pattern|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Advanced/Java%20Singleton%20Pattern)|
+|Java 2D Array|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Data%20Structures/Java%202D%20Array)|
+|Java Stack|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Java/Data%20Structures/Java%20Stack)|
