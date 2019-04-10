@@ -1,3 +1,5 @@
+/* solution is coded using java 7 */
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
