@@ -1,0 +1,9 @@
+n = int(input())
+arr = set(map(int, input().split()))
+ss = sorted(arr, reverse = True)
+m = max(ss)
+for i in ss:
+    if i<m:
+        print(i)
+        break
+
