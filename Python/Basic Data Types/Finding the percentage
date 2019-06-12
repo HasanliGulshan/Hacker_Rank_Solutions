@@ -1,0 +1,8 @@
+my_dict = dict()
+n =  int(input())
+for _ in range(n):
+    info = input().split(" ")
+    marks = list(map(float, info[1:]))
+    my_dict[info[0]] = sum(marks)/float(len(marks))
+
+print("%.2f" % my_dict[input()])
