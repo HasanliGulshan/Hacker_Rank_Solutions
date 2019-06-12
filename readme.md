@@ -349,3 +349,4 @@ SQL solutions are coded using MySQL
 |Top Earners|[Solution](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Sql/Aggregation/Top%20Earners)|
 |Draw The Triangle 1|[Solution](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Sql/Alternative%20Queries/Draw%20The%20Triangle%201)|
 |Draw The Triangle 2|[Solution](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/Sql/Alternative%20Queries/Draw%20The%20Triangle%202)|
+
