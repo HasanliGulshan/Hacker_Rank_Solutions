@@ -1,0 +1,13 @@
+from collections import Counter
+shoes_num = int(input())
+shoes  = Counter(map(int, input().split(" ")))
+client_count = int(input())
+total_money=0
+
+for _ in range(client_count):
+    num, money = map(int, input().split(" "))
+    if shoes[num]:
+        total_money += money
+        shoes[num] -=1
+
+print(total_money)        
