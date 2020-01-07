@@ -1,1 +1,0 @@
-select name from STUDENTS where marks>75 order by right(name , 3), id asc;

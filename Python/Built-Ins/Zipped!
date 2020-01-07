@@ -1,8 +1,0 @@
-a, b  = map(int, input().split())
-
-students = []
-for _ in range(b):
-    students.append(map(float, input().split()))
-
-for i in zip(*students):
-    print(sum(i)/ len(i))    

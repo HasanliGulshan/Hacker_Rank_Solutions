@@ -1,1 +1,0 @@
-select DISTINCT city from STATION where mod(id,2)=0 ;

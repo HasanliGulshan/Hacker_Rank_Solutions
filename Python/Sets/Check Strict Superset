@@ -1,7 +1,0 @@
-list_A = input().split()
-flag = True
-for a in range(int(input())):
-    sub_list = input().split()
-    if not (set(list_A)).issuperset(sub_list):
-        flag = False
-print(flag)

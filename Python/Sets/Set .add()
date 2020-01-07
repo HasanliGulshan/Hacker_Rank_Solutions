@@ -1,6 +1,0 @@
-my_set = set()
-n = int(input())
-for _ in range(n):
-    my_set.add(input())
-
-print(len(my_set))

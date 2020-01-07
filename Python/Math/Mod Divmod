@@ -1,3 +1,0 @@
-a, b = [int(input()), int(input())]
-d = list(divmod(a, b))
-print("{0}\n{1}\n({0}, {1})".format(d[0], d[1]))

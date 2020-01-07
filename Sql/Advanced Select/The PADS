@@ -1,4 +1,0 @@
-select concat(name, '(', SUBSTR(occupation, 1, 1), ')') from OCCUPATIONS order by name asc;
-
-select concat('There are a total of ', count(SUBSTR(occupation, 1, 1)), ' ', lower(occupation), 's.') from OCCUPATIONS GROUP BY Occupation
-ORDER BY Count(SUBSTR(occupation, 1, 1)), Occupation asc;
