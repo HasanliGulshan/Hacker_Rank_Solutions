@@ -1,0 +1,46 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+      // Complete the sansaXor function below.
+    static long sansaXor(long[] arr) {
+        if (arr.length % 2 ==0 ) {
+            return 0;
+        } else {
+            long res = arr[0];
+
+            for(int idx = 2; idx < arr.length; idx += 2) {
+                res ^= arr[idx];
+            }
+            return res;
+        }
+    }
+
+
+    public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+
+        int t = scanner.nextInt();
+        scanner.nextLine();
+
+        for (int tItr = 0; tItr < t; tItr++) {
+            int n = scanner.nextInt();
+
+            long[] arr = new long[n];
+
+            for (int i = 0; i < n; i++) {
+                long arrItem = scanner.nextLong();
+                arr[i] = arrItem;
+            }
+
+            System.out.println(sansaXor(arr));
+        }
+
+        scanner.close();
+    }
+}

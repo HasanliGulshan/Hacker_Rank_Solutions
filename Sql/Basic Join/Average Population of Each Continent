@@ -1,0 +1,1 @@
+select COUNTRY.Continent, round(avg(CITY.Population) - 0.5) from COUNTRY, City where CITY.CountryCode=COUNTRY.Code group by 1;

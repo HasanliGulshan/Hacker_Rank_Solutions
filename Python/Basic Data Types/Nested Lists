@@ -1,0 +1,8 @@
+my_dict = dict()
+n =  int(input())
+my_dict = [[input(), float(input())] for _ in range(n)]
+my_set = set()
+for a in my_dict:
+    my_set.add(a[1])
+second_point=sorted(list(my_set))
+print("\n".join([a for a, b in sorted(my_dict) if b == second_point[1]]))

@@ -1,0 +1,11 @@
+from collections import namedtuple
+n = int(input())
+a = input()
+Student = namedtuple('Student', a)
+result = 0
+count = 0
+for _ in range(n):
+    student = Student(*input().split()) 
+    result += int(student.MARKS)
+    count += 1
+print('{:.2f}'.format(result/ count))    

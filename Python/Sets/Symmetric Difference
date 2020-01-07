@@ -1,0 +1,7 @@
+a, b = [int(input()), input().split()]
+c, d = [int(input()), input().split()]
+b_set = set(b);
+d_set = set(d);
+b_diff = b_set.difference(d_set)
+d_diff = d_set.difference(b_set)
+print("\n".join(sorted(b_diff.union(d_diff), key = int)))
