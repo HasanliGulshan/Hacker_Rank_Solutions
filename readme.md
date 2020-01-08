@@ -18,9 +18,9 @@ Solutions are coded using Java 8
 
 | Challenge | Solution     
 | ------------- |:-------------:|
-| Mean, Median, and Mode  | [Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/10%20Days%20of%20Statistics/Day%200%20-%20Mean%2C%20Median%2C%20and%20Mode) | 
-| Weighted Mean | [Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/10%20Days%20of%20Statistics/Day%200:%20Weighted%20Mean)|  
-| Interquartile Range | [Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/10%20Days%20of%20Statistics/Day%201:%20Interquartile%20Range)|
+| Mean, Median, and Mode  | [Solution.java](https://github.com/HasanliGulshan/Hacker_Rank_Solutions/blob/master/10%20Days%20of%20Statistics/Day%200%20-%20Mean%2C%20Median%2C%20and%20Mode) | 
+| Weighted Mean | [Solution.java](https://github.com/HasanliGulshan/Hacker_Rank_Solutions/blob/master/10%20Days%20of%20Statistics/Day%200)|  
+| Interquartile Range | [Solution.java](https://github.com/HasanliGulshan/Hacker_Rank_Solutions/blob/master/10%20Days%20of%20Statistics/Day%201)|
 |Quartiles| [Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/10%20Days%20of%20Statistics/Day%201:%20Quartiles)|
 |Standard Deviation|[Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/10%20Days%20of%20Statistics/Day%201:%20Standard%20Deviation)|
 |Binomial Distribution I| [Solution.java](https://github.com/HasanliGulshan/HackerRank_solutions/blob/master/10%20Days%20of%20Statistics/Day%204:%20Binomial%20Distribution%20I)|

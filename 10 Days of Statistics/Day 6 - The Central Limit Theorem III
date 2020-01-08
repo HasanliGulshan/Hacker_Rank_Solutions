@@ -1,0 +1,29 @@
+import java.io.*;
+import java.text.DecimalFormat;
+import java.text.DecimalFormat;
+import java.text.DecimalFormat;
+import java.util.*;
+
+public class Solution {
+
+    public static double MarginError(double stdev, double zscore) {
+        double n = 100;
+        double stdErr = stdev / Math.sqrt(n);
+        double marginError = stdErr * zscore;
+        return marginError;
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("###.##");
+        double mean = 500;
+        double stdev = 80;
+        double zscore = 1.96; // for 95%
+        // Calculating Confidence Interval
+        System.out.println(df.format(mean - MarginError(stdev, zscore))); // lowerboud of CI
+        System.out.println(df.format(mean + MarginError(stdev, zscore))); // upperboud of CI
+
+        in.close();
+    }
+}
+

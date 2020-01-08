@@ -1,0 +1,65 @@
+import java.io.*;
+import java.text.DecimalFormat;
+import java.util.*;
+
+public class Solution {
+
+    private static DecimalFormat df = new DecimalFormat("#.#");
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int n = 0;
+        double[] arr = new double[a];
+        int[] number = new int[a];
+
+        for(int i=0; i<a; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        for (int i = 0; i < a; i++) {
+            number[i] = sc.nextInt();
+            n += number[i];
+        }
+
+        sc.close();
+
+        double[] result = new double[n];
+
+         int j = 0;
+        for(int i=0; i<arr.length ;i++) {
+
+            while(number[i] > 0) {
+                result[j++] = arr[i];
+
+                number[i]--;
+            }
+        }
+
+        Arrays.sort(result);
+
+        double arr0[] = Arrays.copyOfRange(result, 0, result.length / 2);
+        int len  = result.length % 2==0? result.length / 2 : (result.length / 2) + 1;
+
+        double arr3[] = Arrays.copyOfRange(result, len, result.length);
+
+        System.out.println(Double.valueOf(df.format(getData(arr3) - getData(arr0))));
+
+    }
+
+    private static double getData(double[] arr) {
+        double res = 0.0;
+        if (arr.length % 2 == 0) {
+
+            res = (arr[arr.length / 2] + arr[arr.length / 2 - 1]) / 2;
+
+        } else {
+
+            res = arr[arr.length / 2];
+
+        }
+
+        return res;
+    }
+}
+

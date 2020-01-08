@@ -4,46 +4,28 @@ import java.util.*;
 
 public class Solution {
 
-    private static DecimalFormat df = new DecimalFormat("#.#");
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int a=sc.nextInt();
-        double sum=0;
-        List<Double> arr = new ArrayList<>();
-         for(int i=0; i<a; i++) {
-             arr.add(sc.nextDouble());
-             sum += arr.get(i);
-         }
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] a = new int[n];
+        int[] b= new int[n];
+        int k =0;
+        double result = 0.0;
 
-        System.out.println(df.format(sum/a));
-        Collections.sort(arr);
-
-        Solution.median(arr);
-
-        HashMap<Double, Integer> map = new HashMap<>();
-        int maxOccurrences = 0;
-        int mode = Integer.MAX_VALUE;
-        for (int num =0 ; num<arr.size(); num++) {
-            map.merge(arr.get(num), 1, Integer::sum);
-            int occurrences = map.get(arr.get(num));
-            if (occurrences > maxOccurrences || (occurrences == maxOccurrences && arr.get(num) < mode)) {
-                maxOccurrences = occurrences;
-                mode = (int)((double)arr.get(num));
-            }
+        for(int i=0; i<n; i++) {
+            a[i] = scanner.nextInt();
         }
 
-        System.out.println(mode);
-
-    }
-
-    private static void median(List<Double> arr) {
-        if(arr.size() % 2 ==0) {
-           double median = (arr.get(arr.size() / 2) + arr.get(arr.size() / 2 - 1)) / 2;
-
-           System.out.println(df.format(median));
-        } else {
-         System.out.println(df.format(arr.get(arr.size() / 2)));
+        for (int i = 0; i < n; i++) {
+            b[i] = scanner.nextInt();
         }
+
+        for(int i=0; i<n;i++) {
+           result +=a[i] * b[i];
+           k+=b[i];
+        }
+        result = result/k;
+        System.out.printf("%.1f\n", result);
     }
 }
 

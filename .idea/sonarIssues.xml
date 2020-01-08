@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 0">
           <value>
             <set />
@@ -13,7 +18,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 1 -  Quartiles">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 1 - Standard Deviation">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 4">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 4 - Binomial Distribution II">
           <value>
             <set />
           </value>
@@ -23,12 +43,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 5 - Poisson Distribution II">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 5 -Normal Distribution I">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 6">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 6 - The Central Limit Theorem II">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 6 - The Central Limit Theorem III">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 7">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/10 Days of Statistics/Day 7 - Spearman's Rank Correlation Coefficient">
           <value>
             <set />
           </value>
@@ -229,6 +274,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/Cracking the Coding Interview/Time Complexity">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/readme.md">
           <value>
             <set />
           </value>
