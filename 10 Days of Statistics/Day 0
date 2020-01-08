@@ -1,0 +1,49 @@
+import java.io.*;
+import java.text.DecimalFormat;
+import java.util.*;
+
+public class Solution {
+
+    private static DecimalFormat df = new DecimalFormat("#.#");
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        double sum=0;
+        List<Double> arr = new ArrayList<>();
+         for(int i=0; i<a; i++) {
+             arr.add(sc.nextDouble());
+             sum += arr.get(i);
+         }
+
+        System.out.println(df.format(sum/a));
+        Collections.sort(arr);
+
+        Solution.median(arr);
+
+        HashMap<Double, Integer> map = new HashMap<>();
+        int maxOccurrences = 0;
+        int mode = Integer.MAX_VALUE;
+        for (int num =0 ; num<arr.size(); num++) {
+            map.merge(arr.get(num), 1, Integer::sum);
+            int occurrences = map.get(arr.get(num));
+            if (occurrences > maxOccurrences || (occurrences == maxOccurrences && arr.get(num) < mode)) {
+                maxOccurrences = occurrences;
+                mode = (int)((double)arr.get(num));
+            }
+        }
+
+        System.out.println(mode);
+
+    }
+
+    private static void median(List<Double> arr) {
+        if(arr.size() % 2 ==0) {
+           double median = (arr.get(arr.size() / 2) + arr.get(arr.size() / 2 - 1)) / 2;
+
+           System.out.println(df.format(median));
+        } else {
+         System.out.println(df.format(arr.get(arr.size() / 2)));
+        }
+    }
+}
+

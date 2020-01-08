@@ -1,0 +1,41 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       int a = sc.nextInt();
+       int[] arr = new int[a];
+
+       for(int i=0; i<a; i++) {
+          arr[i] = sc.nextInt();
+       }
+       Arrays.sort(arr);
+
+        int arr0[] = Arrays.copyOfRange(arr, 0, arr.length / 2);
+        int len  = arr.length % 2==0? arr.length / 2 : (arr.length / 2) + 1;
+
+
+
+       int arr2[] = Arrays.copyOfRange(arr, len, arr.length);
+
+       Solution.getQ(arr0);
+       Solution.getQ(arr);
+       Solution.getQ(arr2);
+
+    }
+
+    private static void getQ(int[] arr) {
+       if(arr.length%2 == 0) {
+
+         System.out.println((arr[arr.length/2] + arr[arr.length/2 -1])/2);
+
+       } else {
+
+         System.out.println(arr[arr.length/2]);
+
+       }
+    }
+}
+
